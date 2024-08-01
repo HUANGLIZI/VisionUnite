@@ -30,7 +30,7 @@ python demo.py
 ```
 
 #### 2.2 Pre-trained models
-To obtain pre-trained models for LA, Pancreas, and BraTs, you can contact the email address zhanli@uw.edu. We just handle the **real-name email** and **your email suffix must match your affiliation**. The email should contain the following information:
+To obtain pre-trained models for the MMFundus dataset, you can contact the email address zhanli@uw.edu. We just handle the **real-name email** and **your email suffix must match your affiliation**. The email should contain the following information:
 ```angular2html
 Name/Homepage/Google Scholar: (Tell us who you are.)
 Primary Affiliation: (The name of your institution or university, etc.)
