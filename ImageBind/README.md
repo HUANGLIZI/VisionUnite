@@ -1,27 +1,3 @@
-# ImageBind: One Embedding Space To Bind Them All
-
-**[FAIR, Meta AI](https://ai.facebook.com/research/)** 
-
-Rohit Girdhar*,
-Alaaeldin El-Nouby*,
-Zhuang Liu,
-Mannat Singh,
-Kalyan Vasudev Alwala,
-Armand Joulin,
-Ishan Misra*
-
-To appear at CVPR 2023 (*Highlighted paper*)
-
-[[`Paper`](https://facebookresearch.github.io/ImageBind/paper)] [[`Blog`](https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/)] [[`Demo`](https://imagebind.metademolab.com/)] [[`Supplementary Video`](https://dl.fbaipublicfiles.com/imagebind/imagebind_video.mp4)] [[`BibTex`](#citing-imagebind)]
-
-PyTorch implementation and pretrained models for ImageBind. For details, see the paper: **[ImageBind: One Embedding Space To Bind Them All](https://facebookresearch.github.io/ImageBind/paper)**.
-
-ImageBind learns a joint embedding across six different modalities - images, text, audio, depth, thermal, and IMU data. It enables novel emergent applications ‘out-of-the-box’ including cross-modal retrieval, composing modalities with arithmetic, cross-modal detection and generation.
-
-
-
-![ImageBind](https://user-images.githubusercontent.com/8495451/236859695-ffa13364-3e39-4d99-a8da-fbfab17f9a6b.gif)
-
 ## ImageBind model
 
 Emergent zero-shot classification performance.
