@@ -38,3 +38,5 @@ Job Title: (E.g., Professor, Associate Professor, Ph.D., etc.)
 Affiliation Email: (the password will be sent to this email, we just reply to the email which is the end of "edu".)
 How to use: (Only for academic research, not for commercial use or second-development.)
 ```
+
+Our code is adapted from [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter) and [InternVL](https://github.com/OpenGVLab/InternVL). Thanks to these authors for their valuable works.
