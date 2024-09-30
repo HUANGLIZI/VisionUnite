@@ -431,17 +431,17 @@ class LLaMA_adapter(nn.Module):
             
             if cls_pred_1 > 0:
                 Keyword_text += KEYWORD_DICT[1]
-            elif cls_pred_2 > 0:
+            if cls_pred_2 > 0:
                 Keyword_text += KEYWORD_DICT[2]
-            elif cls_pred_3 > 0:
+            if cls_pred_3 > 0:
                 Keyword_text += KEYWORD_DICT[3]
-            elif cls_pred_4 > 0:
+            if cls_pred_4 > 0:
                 Keyword_text += KEYWORD_DICT[4]
-            elif cls_pred_5 > 0:
+            if cls_pred_5 > 0:
                 Keyword_text += KEYWORD_DICT[5]
-            elif cls_pred_6 > 0:
+            if cls_pred_6 > 0:
                 Keyword_text += KEYWORD_DICT[6]
-            else:
+            if not ((cls_pred_1 > 0) or (cls_pred_2 > 0) or (cls_pred_3 > 0) or (cls_pred_4 > 0) or (cls_pred_5 > 0) or (cls_pred_6 > 0)):
                 Keyword_text = KEYWORD_DICT[0]
             Keyword_text = torch.tensor(self.tokenizer.encode(Keyword_text, bos=True, eos=False), dtype=torch.int64)
             padding = 48 - Keyword_text.shape[0]
@@ -549,17 +549,17 @@ class LLaMA_adapter(nn.Module):
             Keyword_text = ""
             if cls_pred[i][0] > 0:
                 Keyword_text += KEYWORD_DICT[1]
-            elif cls_pred[i][1] > 0:
+            if cls_pred[i][1] > 0:
                 Keyword_text += KEYWORD_DICT[2]
-            elif cls_pred[i][2] > 0:
+            if cls_pred[i][2] > 0:
                 Keyword_text += KEYWORD_DICT[3]
-            elif cls_pred[i][3] > 0:
+            if cls_pred[i][3] > 0:
                 Keyword_text += KEYWORD_DICT[4]
-            elif cls_pred[i][4] > 0:
+            if cls_pred[i][4] > 0:
                 Keyword_text += KEYWORD_DICT[5]
-            elif cls_pred[i][5] > 0:
+            if cls_pred[i][5] > 0:
                 Keyword_text += KEYWORD_DICT[6]
-            else:
+            if not ((cls_pred[i][0] > 0) or (cls_pred[i][1] > 0) or (cls_pred[i][2] > 0) or (cls_pred[i][3] > 0) or (cls_pred[i][4] > 0) or (cls_pred[i][5] > 0)):
                 Keyword_text = KEYWORD_DICT[0]
             Keyword_text = self.tokenizer.encode(Keyword_text, bos=True, eos=False)
             Keyword_temp.append(Keyword_text)
