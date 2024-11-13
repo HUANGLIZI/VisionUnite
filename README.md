@@ -30,7 +30,9 @@ python demo.py
 ```
 
 #### 2.2 Pre-trained models
-To obtain pre-trained models for the MMFundus dataset, you can contact the email address zhanli@uw.edu. We just handle the **real-name email** and **your email suffix must match your affiliation**. The email should contain the following information:
+The pre-train model VisioinUnite V1 can be downloaded at the [link](https://uillinoisedu-my.sharepoint.com/:u:/g/personal/zl111_illinois_edu/Edr7x0BKfQZJmv5nQA50VZEBbKvyVuiQw3MKoGx4Y93DMg?e=eVFIWn). If you use the pre-train model provided by us, please cite the VisionUnite.
+
+To obtain further pre-trained models for the MMFundus dataset, you can contact the email address zhanli@uw.edu. We just handle the **real-name email** and **your email suffix must match your affiliation**. The email should contain the following information:
 ```angular2html
 Name/Homepage/Google Scholar: (Tell us who you are.)
 Primary Affiliation: (The name of your institution or university, etc.)
@@ -40,3 +42,14 @@ How to use: (Only for academic research, not for commercial use or second-develo
 ```
 
 Our code is adapted from [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter) and [InternVL](https://github.com/OpenGVLab/InternVL). Thanks to these authors for their valuable works.
+
+## Citation
+
+```bash
+@article{li2024visionunite,
+  title={VisionUnite: A Vision-Language Foundation Model for Ophthalmology Enhanced with Clinical Knowledge},
+  author={Li, Zihan and Song, Diping and Yang, Zefeng and Wang, Deming and Li, Fei and Zhang, Xiulan and Kinahan, Paul E and Qiao, Yu},
+  journal={arXiv preprint arXiv:2408.02865},
+  year={2024}
+}
+```
