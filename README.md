@@ -31,6 +31,7 @@ python demo.py
 
 #### 2.2 Pre-trained models
 The pre-train model VisioinUnite V1 can be downloaded at the [link](https://uillinoisedu-my.sharepoint.com/:u:/g/personal/zl111_illinois_edu/Edr7x0BKfQZJmv5nQA50VZEBbKvyVuiQw3MKoGx4Y93DMg?e=eVFIWn). 
+
 If you use the pre-train model provided by us, please cite the VisionUnite.
 
 To obtain further pre-trained models for the MMFundus dataset, you can contact the email address zhanli@uw.edu. We just handle the **real-name email** and **your email suffix must match your affiliation**. The email should contain the following information:
