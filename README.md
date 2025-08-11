@@ -1,5 +1,12 @@
 # VisionUnite
 This repository is the official implementation of the paper "VisionUnite: A Vision-Language Foundation Model for Ophthalmology Enhanced with Clinical Knowledge" (IEEE TPAMI 2025) [Arxiv](https://arxiv.org/abs/2408.02865), [ResearchGate](https://www.researchgate.net/publication/394425824_VisionUnite_A_Vision-Language_Foundation_Model_for_Ophthalmology_Enhanced_with_Clinical_Knowledge). The dataset we use for fine-tuning is the [MMFundus](https://github.com/HUANGLIZI/MMFundus) dataset.
+ 
+Some datasets have been released, more datasets will be released in the future. If you use these datasets, please also cite our work.
+[ACRIMA](https://drive.google.com/drive/folders/1mQ74DcE73WXJOVCutF7b0DqY6HWw7ICk?usp=sharing),
+[ADAM](https://drive.google.com/drive/folders/1Iv0ZKdU_xI95m6wkos1xXA3cQ1QR_wFV?usp=drive_link),
+[AIROGS](https://drive.google.com/drive/folders/15qfcObk1rfBoRLP_U09ZrQYvHOk6dZkZ?usp=sharing),
+[AOD](https://drive.google.com/drive/folders/1u6xqkxsl2UtCDXpr7I8tm2kPY4WFtng8?usp=sharing),
+[APTOS](https://drive.google.com/drive/folders/1N_SPk52-gfQVMcuDyuF2xXNhmAoCWi9b?usp=drive_link)
 
 ![image](https://github.com/HUANGLIZI/VisionUnite/blob/main/VisionUnite_Manuscript.jpg)
 **(a)** Previous vision models could only diagnose specific diseases as positive or negative, lacking the ability to provide clinical explanations or interact with patients. However, our proposed VisionUnite changes this approach. It can predict a wide range of diseases and allows real-time conversations with patients, incorporating their feedback. Additionally, VisionUnite offers clear clinical explanations in its output, making it more understandable and useful. **(b)** The label distribution of the proposed MMFundus dataset, which includes eight main categories excluding the "Others" class. **(c)** VisionUnite is built with a transformer-based vision encoder and a specialized vision adapter designed for classifying six different signs including Vascular, Macular, FBC (Fundus Boundary Color), OCD (Optical Cup Disc), FHE (Fundus Hemorrhages Examination), and Other. It includes a vision projector to align visual embeddings with text tokens. **(d)** The illustration of image-text contrastive learning (CLIP Loss). **(e)** The illustration of classification supervised learning (CLS Loss). **(f)** The illustration of text-generation supervised learning (LLM Loss).
@@ -51,7 +58,8 @@ Our code is adapted from [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adap
 @article{li2024visionunite,
   title={VisionUnite: A Vision-Language Foundation Model for Ophthalmology Enhanced with Clinical Knowledge},
   author={Li, Zihan and Song, Diping and Yang, Zefeng and Wang, Deming and Li, Fei and Zhang, Xiulan and Kinahan, Paul E and Qiao, Yu},
-  journal={arXiv preprint arXiv:2408.02865},
-  year={2024}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2025},
+  publisher={IEEE}
 }
 ```
