@@ -1,5 +1,5 @@
 # VisionUnite
-This repository is the official implementation of the paper "VisionUnite: A Vision-Language Foundation Model for Ophthalmology Enhanced with Clinical Knowledge" (IEEE TPAMI 2025) [Arxiv](https://arxiv.org/abs/2408.02865), [ResearchGate](https://www.researchgate.net/publication/394425824_VisionUnite_A_Vision-Language_Foundation_Model_for_Ophthalmology_Enhanced_with_Clinical_Knowledge). The dataset we use for fine-tuning is the [MMFundus](https://github.com/HUANGLIZI/MMFundus) dataset.
+This repository is the official implementation of the paper "VisionUnite: A Vision-Language Foundation Model for Ophthalmology Enhanced with Clinical Knowledge" (IEEE TPAMI 2025) [Arxiv](https://arxiv.org/abs/2408.02865), [ResearchGate](https://www.researchgate.net/publication/394425824_VisionUnite_A_Vision-Language_Foundation_Model_for_Ophthalmology_Enhanced_with_Clinical_Knowledge), [IEEE Xplore](https://ieeexplore.ieee.org/document/11124413). The dataset we use for fine-tuning is the [MMFundus](https://github.com/HUANGLIZI/MMFundus) dataset.
  
 Some datasets have been released, more datasets will be released in the future. If you use these datasets, please also cite our work.
 [ACRIMA](https://drive.google.com/drive/folders/1mQ74DcE73WXJOVCutF7b0DqY6HWw7ICk?usp=sharing),
