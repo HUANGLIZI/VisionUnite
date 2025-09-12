@@ -37,7 +37,7 @@ python demo.py
 ```
 
 #### 2.2 Pre-trained models
-The pre-train model VisioinUnite V1 can be downloaded at the [link](https://uillinoisedu-my.sharepoint.com/:u:/g/personal/zl111_illinois_edu/Edr7x0BKfQZJmv5nQA50VZEBbKvyVuiQw3MKoGx4Y93DMg?e=3J8JzS). 
+The pre-train model VisioinUnite V1 can be downloaded at the [link](https://drive.google.com/file/d/1kbdpPklCdDxEgxcpsp4OgGjxvxKh5jpV/view?usp=sharing). 
 
 If you use the pre-train model provided by us, please cite the VisionUnite.
 
