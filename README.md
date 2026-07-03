@@ -47,7 +47,7 @@ Affiliation Email: (the password will be sent to this email, we just reply to th
 How to use: (Only for academic research, not for commercial use or second-development.)
 ```
 
-Our code is adapted from [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter) and [InternVL](https://github.com/OpenGVLab/InternVL). Thanks to these authors for their valuable works.
+Part of our code is adapted from [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter) and [InternVL](https://github.com/OpenGVLab/InternVL). Thanks to these authors for their valuable works.
 
 ## Citation
 
